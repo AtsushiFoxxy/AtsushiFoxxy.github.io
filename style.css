@@ -1,0 +1,195 @@
+/*fonte*/
+
+
+/*extras*/
+
+.oi{
+    color: darkslategray;
+}
+
+.o{
+
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.hidden{
+    font-size: 0%;
+}
+
+a{
+color: rgb(0, 0, 0);
+}
+
+/*body*/
+body{
+    margin: 0;
+}
+
+body{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 21px;
+}
+
+/*header*/
+header {
+    background-color:rgb(247, 105, 10);
+    padding-top: 30px;
+    line-height: 24px;
+    padding-right: 835px;
+}
+
+.cabeça-do-site {
+    display: flex;
+    width: 800px;
+    max-width: 1125px;
+    margin: 0 auto;
+    background-color:rgb(64, 224, 64) ;
+}
+
+.borda-redonda{
+    border-radius: 50%;
+}
+
+.foto-perfil {}
+
+.info-perfil {}
+
+/*main*/
+main {
+    background-color:rgb(247, 105, 10);
+    line-height: 23px;
+    padding-right: 835px;
+}
+
+.bloco{
+    border: 2px solid cornflowerblue;
+    padding: 0 28px 25px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.bloco-a{
+    border: 2px solid cornflowerblue;
+    padding: 0 28px 25px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 22px 0px 33px 58px
+}
+
+.corpo-do-site {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    background-color:rgb(64, 172, 59) ;
+}
+
+.lado-esquerdo {
+    padding: 30px;
+}
+
+.perfil {}
+
+.treinamentos {}
+
+.lado-direito {
+    padding: 30px;
+}
+
+.cursos {}
+
+/*footer*/
+footer {
+    background-color:rgb(247, 105, 10);
+    margin: 0px;
+    padding-bottom: 30px;
+    padding-right: 835px;
+    padding-bottom: 229px;
+}
+
+.foot-info {
+    line-height: 24px;
+}
+
+,foot-contatos {
+    border-top: 2px solid darkorange;
+}
+
+.img-contat{
+    width: 40px;
+    height: 40px;
+}
+
+.b {
+    display: flex;
+    justify-content: center;
+}
+
+.a{
+    padding-left: 44px;
+    line-height: 37px;
+}
+
+.roda-pe{
+    display: grid;
+    width: 800px;
+    max-width: 1125px;
+    margin: 0 auto;
+    background-color:rgb(64, 102, 40) ;
+}
+
+.batata{
+    padding: 0px 13px;
+    text-align: center;
+}
+
+.ola{
+    color: #1bc5be;
+}
+
+/*pc*/
+@media only screen and (min-width:767px){
+    .corpo-do-site {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width:769px){
+    header {
+        background-color:rgb(247, 105, 10);
+        padding-top: 30px;
+        line-height: 24px;
+        padding-right: 0px;
+    }
+    main {
+        background-color:rgb(247, 105, 10);
+        line-height: 23px;
+        padding-right: 0px;
+    }
+    footer {
+        background-color:rgb(247, 105, 10);
+        margin: 0px;
+        padding-bottom: 30px;
+        padding-right: 0px;
+        padding-bottom: opx;
+    }
+    .corpo-do-site {
+        display: flex;
+        flex-direction: row;
+        width: 800px;
+        margin: 0 auto;
+        background-color:rgb(64, 172, 59) ;
+    }
+    .lado-esquerdo {
+        padding: 30px;
+    }
+    .lado-direito {
+        padding: 30px;
+    }
+    
+}
